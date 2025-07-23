@@ -18,7 +18,7 @@ def get_user():
 def ping():
     ip = request.args.get('ip')
     return subprocess.getoutput(f"ping -c 1 {ip}") 
-
+# test
 username = "test"
 password = "password"
 
