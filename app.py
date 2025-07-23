@@ -29,7 +29,6 @@ import subprocess
 ip = input("Enter IP: ")
 subprocess.call("ping " + ip, shell=True)
 
-
 import ssl
 import urllib.request
 context = ssl._create_unverified_context()
