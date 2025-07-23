@@ -14,7 +14,6 @@ def get_user():
     conn.close()
     return str(result)
 
-# testing
 
 @app.route('/ping')
 def ping():
