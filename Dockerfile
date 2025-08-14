@@ -1,5 +1,5 @@
 # Dockerfile (vulnerable)
-FROM python:3.7  # old and unsupported version
+FROM python:3.14.0rc1  # old and unsupported version
 
 WORKDIR /app
 
